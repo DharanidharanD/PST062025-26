@@ -6,8 +6,8 @@ public class count_of_digit {
         int num = one.nextInt();
         int count = 0;
         while(num!=0){
-            count++;
             num = num/10;
+            count++;
         }
         System.out.println(count);
     }
